@@ -1,2 +1,2 @@
 # TextAdventureGame.BAS
-A text-based adventure game(still developing, written in basic, an early programming language.
+Use [BBC basic Owlet Editor for this,](https://bbcmic.ro/#] or any text-editor is fine.
