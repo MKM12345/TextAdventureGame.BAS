@@ -30,13 +30,20 @@
 206 CLS
 210 PRINT "A cold, hard voice ratlles in your head with a voice like none other,shouting,'You have acquired the ancient power of your ancestors, the legendary samurai that had skills like no other."
 215 x=INKEY(1000)
-216 CLS
+213 CLS
 220 PRINT "You are now a servant of the light,the order until you can leave the castle.You are now my worst enemy, and I will hunt you till you escape.But you can't.Since I'm the leader of all the dark,the chaos! Run while you still can!'"
 225 x=INKEY(1000)
-226 CLS
+229 CLS
 230 PRINT "You get a horrible Chill down your spine as a black mass of a cloud appears. The cloud starts forming and moulding into a dark figure, vague at first, but becoming more solid and real."
 234 x=INKEY(1000)
-235 CLS
+237 CLS
 240 PRINT "You start running. You bust a door open, which you didn't know existed, but you don't care.You just run. Anywhere but there."
 245 x=INKEY(1000)
-249 CLS
+250 FOR X = 64 TO 96
+251 SOUND 1, -10, X, 1
+255 NEXT X
+257 FOR X = 0 TO 32
+258 SOUND 1, -10, 96-X, 1
+259 NEXT X
+260 COLOUR 2 : 
+270 PRINT "A golden, beautiful staff blazing with energy and power appears in front of you."
