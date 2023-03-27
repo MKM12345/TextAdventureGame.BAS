@@ -23,6 +23,7 @@
 160 PRINT "Try typing 'Pick up and examine scroll' ..."
 170 COLOUR 3 : REM Set the text to white
 180 PRINT "Ahead of you is a scroll. What would you like to do?"
+185 GOTO 120
 190 has_scroll = TRUE
 192 CLS
 200 PRINT "As you open the scroll, a sudden blast of blue energy flows inside of you, and you feel really powerful. But there is something there as well."
@@ -42,8 +43,9 @@
 250 FOR X = 64 TO 96
 251 SOUND 1, -10, X, 1
 255 NEXT X
-257 FOR X = 0 TO 32
-258 SOUND 1, -10, 96-X, 1
-259 NEXT X
+256 FOR X = 0 TO 32
+257 SOUND 1, -10, 96-X, 1
+258 NEXT X
+259 x=INKEY(1000)
 260 COLOUR 2 : 
 270 PRINT "A golden, beautiful staff blazing with energy and power appears in front of you."
