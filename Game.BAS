@@ -49,3 +49,10 @@
 259 x=INKEY(1000)
 260 COLOUR 2 : 
 270 PRINT "A golden, beautiful staff blazing with energy and power appears in front of you."
+280 has_staff = FALSE
+285 COLOUR 1 : 
+290 PRINT "What would you like to do?"
+300 INPUT action$
+310 IF action$ = "Shatter staff" THEN GOTO 330
+320 ELSE action$ = "Grab the staff" THEN GOTO 340
+330 PRINT "With your powers you obtained from the scroll, and some confusion, you destroy the staff with a huge holgraphic hand. The staff explodes in a shower of golden Light. A tremor spreads through the castle."
